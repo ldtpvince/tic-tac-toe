@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "input.h"
 #include "main.h"
+#include "conio.h"
 
 void main()
 {
@@ -14,6 +15,8 @@ void main()
 	printf("Here is the tictactoe board\n\n");
 
 	playlogic(board);
+
+	_getch();
 
 	return;
 }
